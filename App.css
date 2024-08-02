@@ -1,0 +1,98 @@
+/* App.css */
+
+/* Basic reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main app container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.App h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form container styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input and textarea styling */
+.form input[type="text"],
+.form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+/* Jobs list container styling */
+.jobs-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-list h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Job list styling */
+.jobs-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jobs-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.jobs-list li:last-child {
+  border-bottom: none;
+}
+
+.jobs-list h3 {
+  margin: 0;
+  color: #333;
+}
+
+.jobs-list p {
+  margin: 5px 0 0;
+  color: #555;
+}
